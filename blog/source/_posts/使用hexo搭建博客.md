@@ -12,8 +12,8 @@ categories: "工具"
 ### 2.1 hexo命令
 ```
 首先到 cd c:/hexo 下，
-然后git pull git@github.com:gaolaohan/gaolaohan-blog-generator.git，
-再到C:\coding\hexo\gaolaohan-blog-generator\下，hexo init blog，这时候会生成hexo框架的网站。
+然后git pull git@github.com:username/username-blog-generator.git，
+再到C:\coding\hexo\username-blog-generator\下，hexo init blog，这时候会生成hexo框架的网站。
 然后cd blog, 执行npm install
 npm install=npm i。
 在git clone项目的时候，项目文件中并没有 node_modules文件夹，项目的依赖文件可能很大。
@@ -40,6 +40,9 @@ Git报错解决：OpenSSL SSL_read: Connection was reset
 如果再次尝试后依然报错，可以执行下面的命令。
 打开Git命令页面，执行git命令脚本：修改设置，解除ssl验证
 git config --global http.sslVerify "false"
+
+还一种可能是使用的https://github.com/username/xxx.git而不是ssh链接，可以将remote.origin.url修改 git config remote.origin.url "git@github.com:username/xxxx.git"
+
 ```
 
 ## 3. 常见问题
@@ -48,11 +51,10 @@ git config --global http.sslVerify "false"
 next主题的首页默认会把每一篇文章的全部内容展示出来，非常不美观。如果想设为只预览一部分，修改主题下_config.yml文件中auto_excerpt: enable: true 即可。
 #### 3.1.2 主题修改语言
 到Hexo站点根目录\themes\next\languages文件夹下看有支持哪些语言，中文有以下三种，  
-
 - zh-CN.yml
 - zh-HK.yml
 - zh-TW.yml
-
 打开站点根目录/_config.yml文件，设置language内容为： ```language: zh-CN``` 
 
 ### 3.2 将网站生成代码备份到github
+在github上创建项目，比如username-blog-generator，然后使用ssh克隆到本地，在目录username-blog-generator上进行相关的commit push操作就可以了。
