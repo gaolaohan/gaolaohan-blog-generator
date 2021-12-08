@@ -10,6 +10,7 @@ DriverManager.registerDriver(new Driver());//加载驱动，这种方法会导�
 Class.forName("com.mysql.cj.jdbc.Driver");//常用这种
 2、获取连接；
 Connection connection = DriverManager.getConnection(url,username,password);
+
 ### Connection：连接对象 作用：
 1. 创建执行SQL语句的对象
 Statement stmt = connection.createStatement();
@@ -21,5 +22,6 @@ CallableStatement cs = connection.prepareCall(sqlSelect);
 connection.setAutoCommit(false);//将不自动提交事务，需要手动提交；在此期间所作的多个操作，一起成功或者一起失败
 connection.commit();//事务提交
 connection.rollback();//事务回滚
+
 ### Statement 执行sql语句
 boolean searchresult = stmt.execute(sqlSelect);

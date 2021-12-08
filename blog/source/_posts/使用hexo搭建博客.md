@@ -28,9 +28,18 @@ hexo s 打开本地web服务器，localhost:4000访问网站本地部署效果�
 
 ```
 cp -r -force public\* .\.deploy\username.github.io
-复制到该目录下后，git add .
+复制到该目录下后，进入username.github.io 目录，执行：
+git add .
 git commit -m "备注"
 git push 发布到github上，网站内容同步就更新了。
+```
+
+```
+Git报错解决：OpenSSL SSL_read: Connection was reset
+首先，造成这个错误很有可能是网络不稳定，连接超时导致的，
+如果再次尝试后依然报错，可以执行下面的命令。
+打开Git命令页面，执行git命令脚本：修改设置，解除ssl验证
+git config --global http.sslVerify "false"
 ```
 
 ## 3. 常见问题
