@@ -1,7 +1,8 @@
 ---
 title: Spring学习
 date: 2020-01-07 22:54:16
-tags:
+tags: "Java"
+categories: "编程"
 ---
 ### Spring对象的创建和依赖关系维护
 面向切面编程AOP

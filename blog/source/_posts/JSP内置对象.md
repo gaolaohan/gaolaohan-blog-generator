@@ -1,7 +1,8 @@
 ---
 title: JSP内置对象
 date: 2019-12-09 19:22:55
-tags:
+tags: "Java"
+categories: "编程"
 ---
 request 请求对象 HttpServletReuqest
 response 响应对象 HttpServletResponse

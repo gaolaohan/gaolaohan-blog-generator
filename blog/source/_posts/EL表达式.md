@@ -1,7 +1,8 @@
 ---
 title: EL表达式
 date: 2019-12-09 20:19:47
-tags:
+tags: "Java"
+categories: "编程"
 ---
 EL（Expression Language）表达式语言，用于简化JSP的输出
 格式：${表达式} 取代out

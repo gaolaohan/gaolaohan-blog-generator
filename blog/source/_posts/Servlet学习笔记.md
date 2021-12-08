@@ -1,7 +1,8 @@
 ---
 title: Servlet学习笔记
 date: 2019-12-04 15:56:42
-tags:
+tags: "Java"
+categories: "编程"
 ---
 html form中的action属性就是表单提交以后发送的地址是什么，一般就是servlet的完整路径或者相对路径，http://localhost:8080 不需要填写。
 接收用户参数，两个方法：

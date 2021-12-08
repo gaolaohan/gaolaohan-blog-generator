@@ -1,7 +1,8 @@
 ---
 title: Sublime下使用Markdown指南
 date: 2019-11-21 13:54:02
-tags:
+tags: "Sublime"
+categories: "工具"
 ---
 
 ## 1. Sublime插件
@@ -16,7 +17,7 @@ tags:
 ```
 
 
-#### 1.2.2 MarkdownPreview     
+#### 1.2.2 MarkdownPreview
 &ensp;&ensp;&emsp;MarkdownPreview 插件用于在浏览器中预览md文件效果，使用预览功能有两种方式：  
 
 1. 使用ctrl+shift+p 调出命令面板 输入mdp 选中preview in browser。  
@@ -26,7 +27,7 @@ tags:
 按 `control+m` 就可以直接在浏览器中预览了，也可设置为自己喜欢的按键。  
 `parser: markdown` 也可设置为 `parser: github`，改为使用 Github 在线API 解析 markdown。
 
-#### 1.2.3 MarkdownLivePreview 在编辑器中实时预览  
+#### 1.2.3 MarkdownLivePreview 在编辑器中实时预览
 &emsp;&emsp; MarkdownLivePreview 插件用于在编辑器中实时预览，方法有下面两种：
 
 1. 使用快捷键 alt+m 

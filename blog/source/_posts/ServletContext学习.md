@@ -1,7 +1,8 @@
 ---
 title: ServletContext学习
 date: 2019-12-06 16:57:34
-tags:
+tags: "Java"
+categories: "编程"
 ---
 ServletContext(Servlet上下文对象),web应用全局对象；
 整个web应用程序中有且只有一个ServletContext对象，随着web应用启动而创建，关闭或重启时销毁。

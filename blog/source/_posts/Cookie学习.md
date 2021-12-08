@@ -1,7 +1,8 @@
 ---
 title: Cookie学习
 date: 2019-12-06 12:57:35
-tags:
+tags: "Java"
+categories: "编程"
 ---
 Cookie浏览器在本地保存文本内容：
 登陆状态，用户资料等；Cookie具有时效性，内容会伴随请求发送给tomcat

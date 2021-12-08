@@ -1,7 +1,8 @@
 ---
 title: ajax学习笔记
 date: 2019-12-17 00:00:46
-tags:
+tags: "Java"
+categories: "编程"
 ---
 Asynchronous Javascript And XML (异步的javascript 和 XML)
 对页面数据进行局部刷新
@@ -52,7 +53,7 @@ Asynchronous Javascript And XML (异步的javascript 和 XML)
 </html>
 ```
 jquery的$.ajax()方法使用：
-1、传入的时一个json对象，用于描述发送的细节$.ajax(json);
+1、传入的是一个json对象，用于描述发送的细节$.ajax(json);
 2、常用的json对象设置：
 url 发送请求地址；
 type请求类型get/post;

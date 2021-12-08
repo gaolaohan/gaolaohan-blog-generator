@@ -1,7 +1,8 @@
 ---
 title: idea使用指南
 date: 2019-12-12 15:51:12
-tags:
+tags: "idea"
+categories: "工具"
 ---
 ## 快捷键
 1. ctrl+alt+s 调出settings面板:Editor->General->CodeCompletion->Match case 勾选去掉，可以将自动提示的大小写匹配去掉;KeyMap->MainMenu->Code->Completion->Basic可以设置智能提示，比如设置为ctrl+j
@@ -47,6 +48,8 @@ tags:
 35. ctrl_alt+t surround with while if try catch
 36. alt+shift+enter 导入包 完成接口方法
 37. alt+o override method 
+38. Ctrl+”+/-”,当前方法展开、折叠
+39. Ctrl+Shift+”+/-”,全部展开、折叠
 
 ##常见问题
 ###web目录下创建一个文件夹，无法自动更新到out\artifacts

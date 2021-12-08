@@ -1,7 +1,8 @@
 ---
 title: jquery学习
 date: 2019-12-16 18:34:33
-tags:
+tags: "javascript"
+categories: "编程"
 ---
 属性选择器：
 $("a[href='http://www.clcun.com']") 选择属性值为clcun的超链接

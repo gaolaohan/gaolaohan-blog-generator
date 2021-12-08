@@ -1,7 +1,8 @@
 ---
 title: Mysql学习笔记
 date: 2020-03-06 19:09:50
-tags:
+tags: "Mysql"
+categories: "数据库"
 ---
 ##简介
 DataBaseSystem： 数据库、数据库管理系统（DBMS）、应用开发工具

@@ -1,7 +1,8 @@
 ---
 title: JSP学习笔记
 date: 2019-12-04 23:38:36
-tags:
+tags: "Java"
+categories: "编程"
 ---
 jsp本质就是Servlet，tomcat接收到请求，找到jsp先转为Servlet.java 然后编译。
 JSP语法：
@@ -17,3 +18,5 @@ JSP注释：
 // /*..*/ 注释java代码
 <!-- html --> html注释，被注释的语句不会被浏览器解析
 
+
+jsp放在web-inf目录外面可以直接访问，放在里面不能直接访问

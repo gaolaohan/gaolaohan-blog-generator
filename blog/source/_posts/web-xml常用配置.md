@@ -1,7 +1,8 @@
 ---
 title: web.xml常用配置
 date: 2019-12-09 18:21:04
-tags:
+tags: "Java"
+categories: "编程"
 ---
 1. 修改web应用默认首页
 ``` xml

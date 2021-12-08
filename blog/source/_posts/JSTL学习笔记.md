@@ -1,7 +1,8 @@
 ---
 title: JSTL学习笔记
 date: 2019-12-12 13:37:39
-tags:
+tags: "Java"
+categories: "编程"
 ---
 JSTL JSP standard tag library JSP标准标签库
 核心标签库-core

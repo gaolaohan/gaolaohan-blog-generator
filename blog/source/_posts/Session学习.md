@@ -1,7 +1,8 @@
 ---
 title: Session学习
 date: 2019-12-06 15:23:57
-tags:
+tags: "Java"
+categories: "编程"
 ---
 Cookie保存在客户端的信息可能会被前端用户更改，虽然加密了，但不可靠。
 Session 用于保存与浏览器窗口对应的数据，信息存放在服务器上。

@@ -1,7 +1,8 @@
 ---
 title: Filter过滤器
 date: 2020-01-03 15:26:43
-tags:
+tags: "Java"
+categories: "编程"
 ---
 Filter从客户端浏览器向tomcat发来的请求进行统一拦截处理，也对响应进行处理，应用程序层面进行全局处理。
 

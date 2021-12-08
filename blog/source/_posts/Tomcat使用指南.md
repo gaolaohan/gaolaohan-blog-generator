@@ -1,7 +1,8 @@
 ---
 title: Tomcat使用指南
 date: 2019-11-29 16:42:18
-tags:
+tags: "Tomcat"
+categories: "编程"
 ---
 
 tomcat放到服务器上访问8080端口还需要输入端口号，造成访问不便，好多人需要换成80端口。

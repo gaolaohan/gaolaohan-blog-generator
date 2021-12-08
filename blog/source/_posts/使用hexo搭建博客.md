@@ -1,7 +1,8 @@
 ---
 title: 使用hexo搭建博客
 date: 2019-11-20 23:54:02
-tags:
+tags: "git"
+categories: "工具"
 ---
 
 ## 1. 环境安装
@@ -9,12 +10,27 @@ tags:
 
 ## 2. 命令操作
 ### 2.1 hexo命令
+```
+首先到 cd c:/hexo 下，
+然后git pull git@github.com:gaolaohan/gaolaohan-blog-generator.git，
+再到C:\coding\hexo\gaolaohan-blog-generator\下，hexo init blog，这时候会生成hexo框架的网站。
+然后cd blog, 执行npm install
+npm install=npm i。
+在git clone项目的时候，项目文件中并没有 node_modules文件夹，项目的依赖文件可能很大。
+直接执行，npm会根据package.json配置文件中的依赖配置下载安装。
+hexo clean 清空网站项目
+hexo g 生成网站
+hexo s 打开本地web服务器，localhost:4000访问网站本地部署效果。
+```
 
 ### 2.2 用到的Linux命令
 #### 2.2.1 发布博客时，将生成的网站静态页面，复制到github目录下，  
 
 ```
 cp -r -force public\* .\.deploy\username.github.io
+复制到该目录下后，git add .
+git commit -m "备注"
+git push 发布到github上，网站内容同步就更新了。
 ```
 
 ## 3. 常见问题

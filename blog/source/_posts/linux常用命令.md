@@ -1,7 +1,8 @@
 ---
 title: linux常用命令
 date: 2019-11-21 20:55:05
-tags:
+tags: "linux"
+categories: "编程"
 ---
 
 ## 1. 文件操作
@@ -41,12 +42,12 @@ linux 目录 根目录 /
 
 ls --help 查看文件帮助
 man ls 也可以查看ls 的帮助
- pwd 查看当前命令
+ pwd 查看当前路径
  cd ..
  cd ~ 到家目录
  mkdir a 创建目录
 mkdir /root/b
-mkdir -p c/d 依次创建目录
+mkdir -p c/d 依次逐级创建目录
 
 rmdir a 删除目录
 rmdir -p c/d/e 依次删除所有目录

@@ -1,7 +1,8 @@
 ---
 title: Windows PowerShell使用指南
 date: 2019-11-21 20:59:05
-tags:
+tags: "Sublime"
+categories: "工具"
 ---
 
 ## 1. 常见问题

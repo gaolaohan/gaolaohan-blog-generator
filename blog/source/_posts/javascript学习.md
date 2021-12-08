@@ -1,7 +1,8 @@
 ---
 title: javascript学习
 date: 2020-01-06 09:53:16
-tags:
+tags: "javascript"
+categories: "编程"
 ---
 ##常见问题
 ###赋值异常
